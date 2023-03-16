@@ -1,7 +1,6 @@
-const mysql = require("mysql2");
+// import cli.run()
 const CLI = require("./lib/CLI");
 const cli = new CLI();
 
-active = true;
-
+// run app
 cli.run();
